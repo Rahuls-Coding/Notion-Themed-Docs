@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
 html,
 body {
@@ -33,4 +34,9 @@ a {
 
 .text {
   font-family: 'PT Serif', serif;
+}
+
+.other-text {
+  font-family: 'Poppins', sans-serif;
+
 }
