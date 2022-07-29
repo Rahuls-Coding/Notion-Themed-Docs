@@ -40,3 +40,20 @@ a {
   font-family: 'Poppins', sans-serif;
 
 }
+
+
+@layer components {
+  .navbar {
+    @apply  grid p-2 justify-items-end
+  }
+  .color-overhead{
+    @apply bg-orange-500 border-4 border-orange-500
+  }
+  .overall{
+    @apply flex flex-col justify-center items-start max-w-3xl border-gray-200 dark:border-gray-700 mx-auto pb-16
+  }
+  .tutorial-text {
+    @apply py-3 text px-2
+  }
+
+}

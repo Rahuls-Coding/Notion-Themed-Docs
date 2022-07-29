@@ -2,10 +2,15 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Alert, Title, Text, Mark, Code } from '@mantine/core';
 import { IconAlertCircle, IconAlertTriangle } from '@tabler/icons';
+import { Navbar } from '../components/Navbar';
+
 
 export default function Home() {
   return (
     <div>
+      <div className="  grid p-2 justify-items-end">
+        <Navbar/>
+      </div>
       <div className="bg-red-500 border-4 border-red-500">
         <div className="h-44"></div>
       </div>
