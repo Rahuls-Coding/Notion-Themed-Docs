@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Menu, Burger } from '@mantine/core';import {Moon, Sun} from '@tabler/icons'
+import { Menu, Burger } from '@mantine/core';
 import {TbCurrencyEthereum} from 'react-icons/tb';
 import {AiOutlineHome} from 'react-icons/ai'
 
@@ -9,9 +9,8 @@ export function Navbar() {
   const [opened, setOpened] = useState(false);
   const title = opened ? 'Close navigation' : 'Open navigation';
   
-
   return (
-    <div className='flex flex-nonwrap justify-between items-center'>
+    <div className='pop-up'>
     <div className="">
         <div className='m-0 p-0'>
             <Menu width={200} shadow="md">
@@ -39,6 +38,12 @@ export function Navbar() {
                             href="/ethereum"
                         >
                             Ethereum 
+                        </Menu.Item>
+                        <Menu.Item
+                            component='a' 
+                            href='/tutorial'
+                        >
+                            Tutorial
                         </Menu.Item>
 
                 </Menu.Dropdown>

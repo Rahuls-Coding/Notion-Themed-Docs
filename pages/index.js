@@ -1,4 +1,3 @@
-
 import { Alert, Title, Text, Mark, Code, List } from '@mantine/core';
 import { Navbar } from '../components/Navbar';
 import { Prism } from '@mantine/prism';

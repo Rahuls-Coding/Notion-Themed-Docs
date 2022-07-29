@@ -55,5 +55,8 @@ a {
   .tutorial-text {
     @apply py-3 text px-2
   }
+  .pop-up {
+    @apply flex justify-between items-center
+  }
 
 }
